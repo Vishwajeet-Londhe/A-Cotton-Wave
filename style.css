@@ -14,19 +14,20 @@ html ,body{
     width: 100%;
     /* background-color: red; */
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 90px;
-    padding-top: 150px;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 110px;
 }
 
 #left{
     height: 100%;
-    width: 48%;
+    width: 45%;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 #right{
@@ -50,7 +51,7 @@ html ,body{
 #color{
     /* background-color: blue; */
     width: fit-content;
-    padding: 10px 15px;
+    padding: 8px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,9 +86,15 @@ html ,body{
 }
 
 #left p{
-    font-size: 18px;
-    width: 100%;
+    font-size: 13px;
+    width: 65%;
     font-weight: 600;
     color: #444;
     line-height: 23px;
+}
+
+#right{
+    height: 90%;
+    width: 38%;
+    background-color: rgb(0, 0, 255);
 }
