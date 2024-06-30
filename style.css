@@ -98,7 +98,7 @@ html ,body{
 #right{
     height: 90%;
     width: 38%;
-    background-color: rgb(0, 0, 255);
+    /* background-color: rgb(0, 0, 255); */
     position: relative;
 }
 
@@ -108,7 +108,7 @@ html ,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding-right: 20px;
 }
 
 #right-top h4{
@@ -135,7 +135,7 @@ html ,body{
     position: absolute;
     height: 170px;
     width: 170px;
-    background-color: rgb(70, 70, 74);
+    background-color: rgb(26, 26, 26);
     color: #fff;
     border-radius: 50%;
     right: -20%;
@@ -146,6 +146,17 @@ html ,body{
 }
 
 #black-gola h5{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 400;
+}
+
+#rotate{
+    position: absolute;
+    left: -13%;
+    /* background-color: red; */
+    bottom: 2%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 30px;
+    font-weight: 500;
 }
