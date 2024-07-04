@@ -39,9 +39,11 @@ html ,body{
 }
 
 #left h1{
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 8.6vw;
     font-family: work sans;
-    line-height: 105px;
+    /* line-height: 105px; */
+    line-height: 8.8vw;
 }    
 
 #bottom-left{
@@ -84,15 +86,18 @@ html ,body{
 #left h2{
     margin-top: 50px;
     margin-bottom: 10px;
-    font: size 20px;
+    /* font: size 20px; */
+    font-size: 2vw;
 }
 
 #left p{
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 1.05vw;
     width: 65%;
     font-weight: 600;
     color: #444;
-    line-height: 23px;
+    /* line-height: 23px; */
+    line-height: 1.6vw;
 }
 
 #right{
@@ -159,4 +164,167 @@ html ,body{
     transform-origin: 0 0;
     font-size: 30px;
     font-weight: 500;
+}
+
+@media (max-width:600px) {
+    #main{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 40px;
+        gap: 50px;
+    }
+
+    #left{
+        height: fit-content%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        gap: 50px;
+    }
+    
+    #right{
+        height: 100%;
+        width: 33%;
+        /* background-color: rgb(0, 0, 255); */
+    }
+    
+    #left h1{
+        /* font-size: 100px; */
+        font-size: 17vw;
+        font-family: work sans;
+        /* line-height: 105px; */
+        line-height: 15vw;
+    }    
+    
+    #bottom-left{
+        /* height: 40%; */
+        width: 100%;
+        /* background-color: rgb(221, 255, 0); */
+    }
+    
+    #color{
+        /* background-color: blue; */
+        width: fit-content;
+        padding: 5px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    
+    #color h5{
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    
+    #color1{
+        height:12px;
+        width: 12px;
+        background-color: burlywood;
+        border-radius: 50%;
+        margin: 3px;
+    }
+    
+    #color2{
+        height:12px;
+        width: 12px;
+        background-color: brown;
+        border-radius: 50%;
+    }
+    
+    #left h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        /* font: size 20px; */
+        font-size: 3vw;
+    }
+    
+    #left p{
+        /* font-size: 13px; */
+        font-size: 2.15vw;
+        width: 85%;
+        font-weight: 600;
+        color: #444;
+        /* line-height: 23px; */
+        line-height: 2.6vw;
+    }
+    
+    #right{
+        height: 50%;
+        width: 100%;
+        /* background-color: rgb(0, 0, 255); */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #right-top{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+    
+    #right-top h4{
+        font-size: 26px;
+        font-weight: 600;
+        font-family: work sans;
+    }
+    
+    #right-top h5{
+        font-size: 14px;
+    }
+    
+    #right-top h5 i{
+        color: gold;
+    }
+    
+    #right img{
+        width: 100%;
+        height: 88%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    #black-gola{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(26, 26, 26);
+        color: #fff;
+        border-radius: 50%;
+        right: -10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -10%;
+    }
+    
+    #black-gola h5{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #rotate{
+        position: absolute;
+        left: 0%;
+        /* background-color: red; */
+        top: -13%;
+        rotate: 0deg;
+        transform-origin: 0 0;
+        font-size: 28px;
+        font-weight: 600;
+    }
 }
